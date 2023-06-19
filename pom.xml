@@ -789,7 +789,7 @@
         <profile>
             <id>securityOff</id>
             <properties>
-                <surefire.security.argline />
+                <surefire.security.argline/>
             </properties>
         </profile>
         <profile>
@@ -1017,7 +1017,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>14.0.1</version>
+                <version>32.0.0-android</version>
             </dependency>
 
             <dependency>
@@ -1402,7 +1402,7 @@
         <findbugs.skip>false</findbugs.skip>
         <findbugs.threshold>Low</findbugs.threshold>
         <findbugs.common>exclude-common.xml</findbugs.common>
-        <findbugs.exclude />
+        <findbugs.exclude/>
         <findbugs.glassfish.logging.validLoggerPrefixes>
             javax.enterprise
         </findbugs.glassfish.logging.validLoggerPrefixes>
@@ -1413,8 +1413,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <release.tests.args>-Dmaven.test.skip=false</release.tests.args>
         <skip.tests>false</skip.tests>
-        <xdk.absolute.path />
-        <surefire.security.argline />
+        <xdk.absolute.path/>
+        <surefire.security.argline/>
 
         <!-- Dependency versions -->
         <jersey.version>${project.version}</jersey.version>
