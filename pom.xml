@@ -789,7 +789,7 @@
         <profile>
             <id>securityOff</id>
             <properties>
-                <surefire.security.argline />
+                <surefire.security.argline/>
             </properties>
         </profile>
         <profile>
@@ -1402,7 +1402,7 @@
         <findbugs.skip>false</findbugs.skip>
         <findbugs.threshold>Low</findbugs.threshold>
         <findbugs.common>exclude-common.xml</findbugs.common>
-        <findbugs.exclude />
+        <findbugs.exclude/>
         <findbugs.glassfish.logging.validLoggerPrefixes>
             javax.enterprise
         </findbugs.glassfish.logging.validLoggerPrefixes>
@@ -1413,8 +1413,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <release.tests.args>-Dmaven.test.skip=false</release.tests.args>
         <skip.tests>false</skip.tests>
-        <xdk.absolute.path />
-        <surefire.security.argline />
+        <xdk.absolute.path/>
+        <surefire.security.argline/>
 
         <!-- Dependency versions -->
         <jersey.version>${project.version}</jersey.version>
@@ -1458,7 +1458,7 @@
         <jta.api.version>1.2</jta.api.version>
         <mimepull.version>1.9.3</mimepull.version>
         <moxy.version>2.5.0</moxy.version>
-        <mustache.version>0.8.12</mustache.version>
+        <mustache.version>0.9.0</mustache.version>
         <osgi.version>4.2.0</osgi.version>
         <pax.exam.version>3.3.0</pax.exam.version>
         <pax.web.version>0.7.4</pax.web.version><!-- TODO: UPGRADE! -->
