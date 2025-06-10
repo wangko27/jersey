@@ -789,7 +789,7 @@
         <profile>
             <id>securityOff</id>
             <properties>
-                <surefire.security.argline />
+                <surefire.security.argline/>
             </properties>
         </profile>
         <profile>
@@ -1402,7 +1402,7 @@
         <findbugs.skip>false</findbugs.skip>
         <findbugs.threshold>Low</findbugs.threshold>
         <findbugs.common>exclude-common.xml</findbugs.common>
-        <findbugs.exclude />
+        <findbugs.exclude/>
         <findbugs.glassfish.logging.validLoggerPrefixes>
             javax.enterprise
         </findbugs.glassfish.logging.validLoggerPrefixes>
@@ -1413,8 +1413,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <release.tests.args>-Dmaven.test.skip=false</release.tests.args>
         <skip.tests>false</skip.tests>
-        <xdk.absolute.path />
-        <surefire.security.argline />
+        <xdk.absolute.path/>
+        <surefire.security.argline/>
 
         <!-- Dependency versions -->
         <jersey.version>${project.version}</jersey.version>
@@ -1434,7 +1434,7 @@
         <hk2.version>2.3.0-b05</hk2.version>
         <asm.version>5.0.2</asm.version>
         <httpclient.version>4.3.1</httpclient.version>
-        <jackson.version>2.3.2</jackson.version>
+        <jackson.version>2.13.0</jackson.version>
         <javassist.version>3.18.1-GA</javassist.version>
         <javax.annotation.version>1.2</javax.annotation.version>
         <javax.annotation.bundle.version>1.2</javax.annotation.bundle.version>
